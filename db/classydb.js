@@ -7,6 +7,7 @@ const { ParentDB } = require("./parents");
 const { StudentDB } = require("./students");
 const { TeacherDB } = require("./teachers");
 
+
 // helper function to combine multiple classes into one
 function Classes(bases) {
   class Bases {
